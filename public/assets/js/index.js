@@ -26,7 +26,7 @@ let activeNote = {};
 
 // Const to get a note
 const getNotes = () =>
-  fetch('/api/notes', {
+  fetch('./notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const getNotes = () =>
 
 // Save a note
 const saveNote = (note) =>
-  fetch('/api/notes', {
+  fetch('./notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ const saveNote = (note) =>
 
 // Delete a note
 const deleteNote = (id) =>
-  fetch(`/api/notes/${id}`, {
+  fetch(`/notes${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
@@ -149,7 +149,7 @@ const renderNoteList = async (notes) => {
     return liEl;
   };
   if (jsonNotes.length === 0) {
-    noteListItems.push(createLi('No saved Notes', false));
+    noteListItems.push(createLi('No Saved Notes', false));
   }
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
