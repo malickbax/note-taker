@@ -26,5 +26,5 @@ Please open URL displayed under Installation section and follow the instructions
 None
 
 ## Questions
-if you have any questions or feedback, please contact me. More of my projects are available on https://github.com/malickbax
+If you have any questions or feedback, please contact me. More of my projects are available on https://github.com/malickbax
 
