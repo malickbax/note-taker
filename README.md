@@ -9,8 +9,10 @@ Note Taker is an application that allows the user to write and save notes. This 
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Test](#test)
+
 - [Questions](#questions)
 
 ## Installation
@@ -18,6 +20,9 @@ Run the application using the following URL: http://arcane-shore-19671.herokuapp
 
 ## Usage
 Please open URL displayed under Installation section and follow the instructions.
+
+## Screenshot
+![Screenshot](public/assets/css/Screenshot.png)
 
 ## License
 ![License](https://img.shields.io/badge/License-none-blue.svg)
