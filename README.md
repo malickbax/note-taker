@@ -1,6 +1,5 @@
 
 ## Note Taker App
-![License](https://img.shields.io/badge/License-none-blue.svg)
 
 ## Description
 Note Taker is an application that allows the user to write and save notes. This application uses Express.js back end and saves/retrieves note data from a JSON file.
