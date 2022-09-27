@@ -8,7 +8,7 @@ Note Taker is an application that allows the user to write and save notes. This 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
+- [User Story](#user-story)
 - [Screenshot](#screenshot)
 - [License](#license)
 - [Test](#test)
